@@ -41,3 +41,5 @@ Here's some math:
 $$z = x + y$$
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dHHmUF9gs70" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="1200" height="600" src="https://plot.ly/~tngai/46.embed" frameborder="0" allowfullscreen></iframe>
