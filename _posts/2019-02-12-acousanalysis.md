@@ -1,44 +1,29 @@
 ---
-title: "Acoustical Analysis"
+title: "Sound Test Results Round 1"
 date: 2019-02-12
 tags: [acoustics, material, data visualization]
 classes: wide
-excerpt: "Material Testings"
+excerpt: "Results for the first round of material testing"
 ---
 
-# H1 Heading
+# Set01
 
-## H2 Heading
+##### The first set of materials are composed of the following materials
 
-### H3 Heading
-
-Here's some basic tsext
-
-And here's some *italics*
-
-Here's some **bold** text.
-
-Here's an inline code 'x+y'
-
-'''python
-
-import numpy as np
-def test_function(x, y):
-    z = np.sum(x,y)
-    return z
-
-'''
-
-Here's an image:
 <img src="{{ site.url }}{{ site.baseurl }}/images/ROBOT_NAKED_FOR_POSTER_masked.jpg" alt="bot life">
 
-Here's Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/ROBOT_NAKED_FOR_POSTER_masked.jpg)
-
-Here's some math:
-
-$$z = x + y$$
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dHHmUF9gs70" frameborder="0" allowfullscreen></iframe>
+### Results in the Low Frequencies (20Hz - 5000Hz)
 
 <iframe width="1400" height="600" src="https://plot.ly/~tngai/46.embed" frameborder="0" allowfullscreen></iframe>
+
+### Results in the Med Frequencies (5000Hz - 10000Hz)
+
+<iframe width="1400" height="600" src="https://plot.ly/~tngai/72.embed" frameborder="0" allowfullscreen></iframe>
+
+### Results in the Med High Frequencies (1000Hz - 15000Hz)
+
+<iframe width="1400" height="600" src="https://plot.ly/~tngai/76.embed" frameborder="0" allowfullscreen></iframe>
+
+### Results in the High Frequencies (15000Hz - 20000Hz)
+
+<iframe width="1400" height="600" src="https://plot.ly/~tngai/66.embed" frameborder="0" allowfullscreen></iframe>
