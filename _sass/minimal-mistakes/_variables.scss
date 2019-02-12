@@ -6,15 +6,15 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 14 !default;
+$doc-font-size: 12 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: "PT Serif", Georgia, Times, serif !default;
-$sans-serif: "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "Abel", Georgia, Times, serif !default;
+$sans-serif: "Karla", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
