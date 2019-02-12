@@ -106,15 +106,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ted Ngai"
+  name             : "ITL"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "ITL"
+  bio              : "Pratt Interdisciplinary Research Laboratory"
   location         : "Brooklyn, NY"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:tngai@pratt.edu
+      url: mailto:itl@pratt.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
