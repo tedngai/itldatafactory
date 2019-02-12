@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ITL Acoustics Analysis"
+title                    : "Acoustical Analysis"
 title_separator          : "-"
 name                     : "ITL Team"
 description              : "Acoustics performance analysis of various architectural materials"
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "ITL"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/ROBOT_NAKED_FOR_POSTER_masked.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Pratt Interdisciplinary Research Laboratory"
   location         : "Brooklyn, NY"
   email            :
