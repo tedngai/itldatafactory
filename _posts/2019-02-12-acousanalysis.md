@@ -2,6 +2,7 @@
 title: "Acoustical Analysis"
 date: 2019-02-12
 tags: [acoustics, material, data visualization]
+classes: wide
 header:
     image: "/images/10-points-acoustics.jpg"
 excerpt: "Material Testings"
