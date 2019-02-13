@@ -1,6 +1,6 @@
 # site settings
 title: ITL
-subtitle: Acoustics Analysis Page
+subtitle: Data Visualization Unit
 email: itl@pratt.edu
 description: A repository of sound proofing analysis<br /> visualized to facilitate design.
 baseurl: "/itlacoustics" # the subpath of your site, e.g. /blog
