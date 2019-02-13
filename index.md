@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, welcome to ITL'
+landing-title: 'Hi, welcome to Pratt Institute Interdisciplinary Technologies Laboratory'
 description: null
 image: null
 author: null
