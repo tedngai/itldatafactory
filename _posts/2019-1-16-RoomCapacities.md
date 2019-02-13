@@ -4,7 +4,7 @@ title: Engineering Building Room Capacities
 description: Charts visualizing room occupancies
 image: assets/images/pic05.jpg
 ---
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+This is a series of heatmap visualizations of how classrooms are used throughout the semester. The color coding of the heat map represents the number of occupants projected with the darkest color representing an empty room. Hovering your mouse over the bright color portion of the heatmap will show the name of courses that are occupying the room during that time.
 
 <h2 id="content">MACH 102</h2>
 
