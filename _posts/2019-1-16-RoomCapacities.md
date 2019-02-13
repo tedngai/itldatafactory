@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Engineering Room Capacities
+title: Engineering Building Room Capacities
 description: Charts visualizing room occupancies
 image: assets/images/pic11.jpg
 ---
