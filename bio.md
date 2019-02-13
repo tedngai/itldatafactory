@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Bio
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
