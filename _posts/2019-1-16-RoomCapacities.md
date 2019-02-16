@@ -17,7 +17,7 @@ This is a series of heatmap visualizations of how classrooms are used throughout
 
 <h2 id="content">ENGR 107</h2>
 
-<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/34.embed"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/40.embed"></iframe>
 
 <h2 id="content">ENGR 113</h2>
 
@@ -29,11 +29,11 @@ This is a series of heatmap visualizations of how classrooms are used throughout
 
 <h2 id="content">ENGR 202</h2>
 
-<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/28.embed"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/42.embed"></iframe>
 
 <h2 id="content">ENGR 203</h2>
 
-<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/26.embed"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/44.embed"></iframe>
 
 <h2 id="content">ENGR 204</h2>
 
@@ -45,7 +45,7 @@ This is a series of heatmap visualizations of how classrooms are used throughout
 
 <h2 id="content">ENGR 206</h2>
 
-<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/20.embed"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/46.embed"></iframe>
 
 <h2 id="content">ENGR 207</h2>
 
@@ -77,7 +77,7 @@ This is a series of heatmap visualizations of how classrooms are used throughout
 
 <h2 id="content">MACH 109</h2>
 
-<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/4.embed"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/48.embed"></iframe>
 
 <h2 id="content">MACH 301</h2>
 
