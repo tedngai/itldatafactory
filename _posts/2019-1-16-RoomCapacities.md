@@ -6,50 +6,74 @@ image: assets/images/pic05.jpg
 ---
 This is a series of heatmap visualizations of how classrooms are used throughout the semester. The color coding of the heat map represents the number of occupants projected with the darkest color representing an empty room. Hovering your mouse over the bright color portion of the heatmap will show the name of courses that are occupying the room during that time.
 
-<h2 id="content">MACH 102</h2>
+<h2 id="content">ENGR 1</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/24.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src=""https://plot.ly/~prattitl/36.embed"></iframe>
 
-<h2 id="content">MACH 103</h2>
+<h2 id="content">ENGR 107</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/26.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/34.embed"></iframe>
 
-<h2 id="content">MACH 104</h2>
+<h2 id="content">ENGR 113</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/28.embed" frameborder="0"></iframe>
-
-<h2 id="content">MACH 107</h2>
-
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/30.embed" frameborder="0"></iframe>
-
-<h2 id="content">MACH 109</h2>
-
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/32.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/32.embed"></iframe>
 
 <h2 id="content">ENGR 201</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/10.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/30.embed"></iframe>
 
 <h2 id="content">ENGR 202</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/12.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/28.embed"></iframe>
 
 <h2 id="content">ENGR 203</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/14.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/26.embed"></iframe>
 
 <h2 id="content">ENGR 204</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/16.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/24.embed"></iframe>
 
 <h2 id="content">ENGR 205</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/18.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/22.embed"></iframe>
 
 <h2 id="content">ENGR 206</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/20.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/20.embed"></iframe>
 
 <h2 id="content">ENGR 207</h2>
 
-<iframe width="1000" height="800" scrolling="no" src="https://plot.ly/~tngai/22.embed" frameborder="0"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/18.embed"></iframe>
+
+<h2 id="content">ENGR 305</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/16.embed"></iframe>
+
+<h2 id="content">ENGR 307</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/14.embed"></iframe>
+
+<h2 id="content">MACH 102</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/12.embed"></iframe>
+
+<h2 id="content">MACH 103</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/10.embed"></iframe>
+
+<h2 id="content">MACH 104</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/8.embed"></iframe>
+
+<h2 id="content">MACH 107</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/6.embed"></iframe>
+
+<h2 id="content">MACH 109</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/4.embed"></iframe>
+
+<h2 id="content">MACH 301</h2>
+
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/2.embed"></iframe>
