@@ -9,7 +9,7 @@ This is a series of heatmap visualizations of how classrooms are used throughout
 <h2 id="content">How to read this graph</h2>
 <p>The x-axis represents time of day as well as week of the semester, while Y-axis represents day of the week. The charts below has the X and Y axis labels turned off for the sake clarity since there're so much information, the graphics gets confusing easily. To get detailed information of a particular room, just hover your mouse over the graph and you will get a read out showing you the date, time, day of week, and the course title.</p>
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/38.embed"></iframe>
+<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~prattitl/38.embed"></iframe>
 
 <h2 id="content">ENGR 1</h2>
 
