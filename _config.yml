@@ -1,36 +1,42 @@
-# site settings
-title: ITL
-subtitle: Data Visualization Unit
-email: itl@pratt.edu
-description: A repository of data analysis<br /> and visualization designs.
-baseurl: "/itldataviz" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: Engineering Building 002 Pratt Institute
-city: Brooklyn
-state: NY
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+# Title of your blog; shows in the header
+name: "pratt itl"
 
-# homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 8
+# Description of your content (will only be used on Google Search)
+description: ":: A SPACE WHERE INTELLECTUAL NETWORKS CONVERGE ::"
 
-# social settings
-500px_url:
-facebook_url: https://facebook.com/
-github_url: https://github.com/
-#gitlab_url: https://gitlab.com/u/andrewbanchich
-#googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-#linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url: https://slack.com/
-twitter_url: https://twitter.com/
+# Your name. Will show in your footer + sidebar
+author: "itl brainiacs"
 
-# build settings
+url: "http://tedngai.github.io"
+baseurl: "/itlworkshops"
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "I'm a dog. I develop things. This is my blog so why don't you close this damn side panel (cursed by most UX Designers but I don't care, I do whatever I want) and start reading my awesome stuff?"
+
+# Social Accounts (mine, as placeholders)
+
+twitter: mx3m
+github: m3xm
+dribbble: m3xm
+instagram: m3xm
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: m3xm.github.io
+ga_tracking_id: UA-47727049-1
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
 markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
 
 sass:
-  style: compressed
+  sass_dir: _scss
+  style: :compressed
