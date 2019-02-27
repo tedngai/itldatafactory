@@ -3,7 +3,7 @@ title: ITL
 subtitle: Data Visualization Unit
 email: itl@pratt.edu
 description: A repository of data analysis<br /> and visualization designs.
-baseurl: "/itlacoustics" # the subpath of your site, e.g. /blog
+baseurl: "/itldataviz" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: Engineering Building 002 Pratt Institute
