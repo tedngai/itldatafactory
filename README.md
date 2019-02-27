@@ -1,52 +1,48 @@
-# Kasper
+# simplest
 
-> This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
-
-## Installation
-
-    git clone https://github.com/rosario/kasper.git
-    cd kasper
-    gem install jekyll
-    gem install pygments.rb
-
-## How to use it
-
-Build page and start local web server
-
-    jekyll serve
-
-Build page into `_site` folder
-
-    jekyll build
-
-## Kasper theme includes
-
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
-
-## Screenshots
-
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+Simple Jekyll theme
 
 
-## Thanks
 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
+> :warning:
+  This theme requires ruby and rubygems installed
 
-## Copyright & License
+* [x] Clean layout
+* [x] Resposive layout
+* [x] Preprocessor SASS
+* [x] HTML minified
+* [x] CSS minified
+* [x] No Javascript
+* [x] Pagination
+* [x] Syntax highlight
+* [x] Author config
+* [x] Comments with Disqus
+* [x] Share posts
 
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+### Start in 4 steps
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+1. Download or clone repo `git clone git@github.com:nandomoreirame/simplest.git`
+2. Enter the folder: `cd simplest/`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `jekyll serve`
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Access, [localhost:4000/simplest](http://localhost:4000/simplest)
+
+---
+
+### Demo and Download
+
+[Demo](https://nandomoreirame.github.io/simplest/)
+[Download](https://github.com/nandomoreirame/simplest/archive/master.zip)
+
+![simplest - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy :yum:
