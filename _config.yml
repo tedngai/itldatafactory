@@ -1,6 +1,6 @@
 # Site settings
-title_left    : "pratt itl"
-title_right   : "space" # default: ""
+title_left    : "pratt "
+title_right   : "itl" # default: ""
 description   : "Minimalist Jekyll theme for technical writing blog."
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url           : https://tedngai.github.io/itldatafactory/ # site url
