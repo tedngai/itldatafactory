@@ -1,52 +1,37 @@
+# Site settings
+title_left    : "pratt itl"
+title_right   : "space" # default: ""
+description   : "Minimalist Jekyll theme for technical writing blog."
+keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url           : https://tedngai.github.io/itldatafactory/ # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
 
-# SEO settings
-title: pratt itl
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: https://tedngai.github.io
-baseurl: "/itldatafactory"
-# baseurl: null
-
-google_analytics: UA-52446115-1
-repo: http://github.com/tedngai/itldatafactory
-disqus_shortname: "nandothemes"
+google_analytics  : UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
 
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown
-highlighter : pygments
+highlighter : rouge
 
-paginate: 4
-paginate_path: "/page/:num/"
-comments: true
-
-source: source
-destination: _site
+source      : ./
+destination : ./_site
 
 # Sass configuration
 sass:
-  sass_dir: assets/scss
-  style: compressed # expanded
+  sass_dir  : assets/scss
+  style     : compressed # expanded
 
 # Author settings
 author:
-  name     : Fernando Moreira
-  job      : Frontend Engineer
-  bio      : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-  thumb    : /images/author.jpg
-  email    : nandomoreira.me@gmail.com
-  url      : http://nandomoreira.me
-  github   : http://github.com/nandomoreirame
-  twitter  : http://twitter.com/nandomoreirame
-  facebook : http://facebook.com/fernando.dev
-  linkedin : http://linkedin.com/in/nandomoreirame
+  name     : "John Doe"
 
-# social settings
-og_locale: "pt_BR"
-twitter_card: "summary_large_image"
-twitter_site: "@nandomoreirame"
-
-gems:
+plugins:
+  - jekyll-sitemap
   - bourbon
   - jekyll-paginate
 
@@ -57,4 +42,4 @@ navbar:
   - slug : blog
     title: Blog
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
