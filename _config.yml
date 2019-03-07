@@ -3,7 +3,7 @@ title_left    : "pratt "
 title_right   : "itl" # default: ""
 description   : "This is a repository of our ongoing projects."
 keywords      : "technology, education, art, design, new york, brooklyn, architecture"
-url           : https://tedngai.github.io/itldatafactory/ # site url
+url           : https://tedngai.github.io/itldatafactory # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
