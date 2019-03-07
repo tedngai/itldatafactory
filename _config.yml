@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "Ted Ngai"
+  name     : "ITL"
 
 plugins:
   - jekyll-sitemap
