@@ -250,6 +250,9 @@ Max SPL : **107.8 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **School of Architecture Higgins Hall - Hallway outside CNC Shop** 
 
@@ -266,6 +269,9 @@ Max SPL : **79.3 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **School of Architecture Higgins Hall - 3D Print Shop** 
 
@@ -282,6 +288,9 @@ Max SPL : **81 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **Main Campus Security Booth** 
 
@@ -298,6 +307,9 @@ Max SPL : **75.1 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **Cafeteria** 
 
@@ -314,6 +326,9 @@ Max SPL : **79.3 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **Engineering Building Wood Shop** 
 
@@ -330,6 +345,9 @@ Max SPL : **79.5 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **Engineering Building Print Lab** 
 
@@ -346,6 +364,9 @@ Max SPL : **77 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **Engineering Building 1st Floor Hallway** 
 
