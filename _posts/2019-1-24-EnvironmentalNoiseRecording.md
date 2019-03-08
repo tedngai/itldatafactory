@@ -64,19 +64,15 @@ Based on this information, we collated our recordings and profiled spaces that c
 ### Data Processing Protocol
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
 
-A-Weighting Equation
+
+#### A-Weighting Equation
+
 
 ![alt text](../../assets/images/a-weighting-eq.gif)
+
 where:
 WA = weighting to be applied, dB
 f = frequency, Hz
 $$$$sin(x)
 
 
-<h3 id="content">Results for Materials Set01</h3>
-
-<iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/152.embed"></iframe>
-
-<h3 id="content">Results for Materials Set02</h3>
-
-<iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/154.embed"></iframe>
