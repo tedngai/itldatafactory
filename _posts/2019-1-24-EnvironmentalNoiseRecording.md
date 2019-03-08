@@ -3,7 +3,7 @@ layout: post
 title: Environmental Noise Recording Round 01
 description: First set of noise recording conducted on Jan 30
 ---
-### Premise
+#### Premise
 In accounting for acoustical properties of building materials, a single number Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) value is used. Both values describe how well a material absorbs sound energy, while NRC focuses on reflected sound, STC focuses on transmitted sound, usually in the range of normal speech frequencies between 120 Hz to 4000 Hz.
 
 While NRC and STC are industry standards in understanding acoustical properties of building materials, in an age where offices have mostly adopted an open office layout where sound transmits freely, and with diversifying office culture where activities like desktop prototyping with CNC machines, doggy day care, and aerobic exercises can happen in the same space, these metrics are no longer adequate in assessing how our aural environments.  
@@ -16,13 +16,13 @@ What we propose is to go beyond the single value metric. Sound is a spectrum and
 
 This proposal involve 2 stages of acoustical testing. The first is to record and graph environmental noise in and around our work environments. We want to record and profile noises of common equipments and how it differs from “background” noise.  For the second phase, we will build an acoustical testing station to test and profile common and unusual acoustical materials. 
 
-### Environmental Noise Recording Methodology
+#### Environmental Noise Recording Methodology
 
 For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirectional microphone set at 90 degree to one another recording a wide sound field, and an Extech 407730- Digital sound level meter to record the sound pressure level (SPL) of the source, typically 1 meter away or as noted. If situation does not allow for the recording to be at 1 meter away, 2 meter distance is used and we use the Inverse Square Law, reduction of 6 decibel per meter, to adjust for the final value. 
 
 
 
-## dL  =  20 log (R2 / R1)  
+### dL  =  20 log (R2 / R1)  
 where:
 dL = difference in sound pressure level (dB)
 R1 = distance from source to location 1 (ft, m)
@@ -63,11 +63,12 @@ Based on this information, we collated our recordings and profiled spaces that c
 ***
 
 
-### Data Processing Protocol
+#### Data Processing Protocol
+
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
 
 
-#### A-Weighting Equation
+##### A-Weighting Equation
 
 
 ![alt text](../../assets/images/a-weighting-eq.gif)
