@@ -35,7 +35,9 @@ We also referenced Health Link British Columbia  for typical noise types and the
 
 Based on this information, we collated our recordings and profiled spaces that can serve as our baseline for what a quiet work environment would be, and spaces with frequent noise level above 75 dB. 
 
+
 ***
+
 
 |LOCATION     |SOUND SOURCE     |DISTANCE FROM SOURCE     |SOUND LEVEL     |
 | --- | --- | --- | --- |
@@ -52,6 +54,7 @@ Based on this information, we collated our recordings and profiled spaces that c
 |Engineering Wood Shop		|Machinery     |1 m     |79.5     |
 |Engineering Print Lab		|Printers     |1 m     |77     |
 |Engineering 1st Floor Hallway		|Video     |2 m     |77.6     |
+
 
 ***
 
