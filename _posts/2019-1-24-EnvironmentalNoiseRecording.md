@@ -23,10 +23,13 @@ For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirection
 
 
 ### *dL  =  20 log (R2 / R1)*  
-*where:
-dL = difference in sound pressure level (dB)
-R1 = distance from source to location 1 (ft, m)
-R2 = distance from source to location 2 (ft, m)*
+*where:*
+
+*dL = difference in sound pressure level (dB)*
+
+*R1 = distance from source to location 1 (ft, m)*
+
+*R2 = distance from source to location 2 (ft, m)*
 
 
 
@@ -68,11 +71,11 @@ In addition to recording the sound pressure levels,  the sound is also recorded 
 
 ![alt text](../../assets/images/a-weighting-eq.gif)
 
-where:
+*where:*
 
-WA = weighting to be applied, dB
+*WA = weighting to be applied, dB*
 
-f = frequency, Hz
+*f = frequency, Hz*
 
 ***
 
