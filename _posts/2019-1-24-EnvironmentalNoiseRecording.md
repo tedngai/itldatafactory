@@ -66,7 +66,7 @@ In addition to recording the sound pressure levels,  the sound is also recorded 
 
 A-Weighting Equation
 
-![alt text](./assets/images/a-weighting-eq.gif)
+![alt text](../../assets/images/a-weighting-eq.gif)
 where:
 WA = weighting to be applied, dB
 f = frequency, Hz
