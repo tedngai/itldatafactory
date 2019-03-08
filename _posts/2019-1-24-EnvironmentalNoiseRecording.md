@@ -39,10 +39,10 @@ Based on this information, we collated our recordings and profiled spaces that c
 |LOCATION     |SOUND SOURCE     |DISTANCE FROM SOURCE     |SOUND LEVEL     |
 | --- | --- | --- | --- |
 |ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office     |Chop Saw     |2 m     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
+|ITL Office     |Chop Saw     |2 m     |101.1     |
+|Higgins Hall Lobby     |Foot Traffic     |ambient     |81.8     |
+|Higgins Hall Main Staircase 1st Floor     |Vending Machine     |1 m     |77.6     |
+|Higgins Hall CNC Shop     |CNC     |2 m     |107.8     |
 
 ### Data Processing Protocol
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
