@@ -121,7 +121,7 @@ Distance from Source : **1m**
 
 Max SPL : **50.5 dBA**
 
-<iframe width="1400" height="500" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/131.embed"></iframe>
+<iframe height="500" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/131.embed"></iframe>
 
 ***
 
