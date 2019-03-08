@@ -271,18 +271,28 @@ Max SPL : **77.6 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/141.embed"></iframe>
 
+***
+
 
 #### Conclusion
 
 From the recordings, we established that the profile from the Pratt Career Center can be used as our normal quiet 
 
 ```json
+
 {
+
   "firstName": "John",
+  
   "lastName": "Smith",
+  
   "age": 25
+  
 }
 ```
+
+
+***
 
 
 [^1]: http://www.montana.edu/rmaher/eele417_fl14/Determination_of_STC.pdf
