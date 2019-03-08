@@ -79,18 +79,18 @@ WA = weighting to be applied, dB
 
 f = frequency, Hz
 
-#####A-Weighting Graph
+##### A-Weighting Graph
 
 
 ![alt text](../../assets/images/A-Weighting.png)
 
 
-#####Unweighted Recording
+##### Unweighted Recording
 
 ![alt text](../../assets/images/Flat-Weighting.png)
 
 
-#####A-Weighted Recording
+##### A-Weighted Recording
 
 ![alt text](../../assets/images/A-Weighted.png)
 
@@ -105,15 +105,22 @@ From the recordings, we established that the profile from the Pratt Career Cente
 
 And as a comparison, this noise profile is from an even quieter office but with a 3D printer running. As you can see, the sound pressure level is lower mostly below 1 kHz and the increased noise level is mostly in the region of higher frequencies above 2 kHz. But the SPL reading shows a lower level at 50.5 dBA.
 
+
 Location : **ITL Office** 
+
 Noise Source : **3D printer** 
+
 Distance from Source : **1m**
+
 Max SPL : **50.5 dBA**
 
 <iframe width="1400" height="500" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/131.embed"></iframe>
 
 
 Location : **ITL Office** 
+
 Noise Source : **3D printer** 
+
 Distance from Source : **1m**
+
 Max SPL : **50.5 dBA**
