@@ -20,7 +20,7 @@ This proposal involve 2 stages of acoustical testing. The first is to record and
 
 For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirectional microphone set at 90 degree to one another recording a wide sound field, and an Extech 407730- Digital sound level meter to record the sound pressure level (SPL) of the source, typically 1 meter away or as noted. If situation does not allow for the recording to be at 1 meter away, 2 meter distance is used and we use the Inverse Square Law, reduction of 6 decibel per meter, to adjust for the final value. 
 
-h&theta;(x) = &theta;o x + &theta;1x
+
 
 ## dL  =  20 log (R2 / R1)  
 ###### where:
@@ -29,11 +29,13 @@ h&theta;(x) = &theta;o x + &theta;1x
 ###### R2 = distance from source to location 2 (ft, m)
 
 
+
 The sound pressure level is recorded with A-weighting on the instrument, which is weighted to human sound perception. The initial recordings recorded at about 36 locations profiling various kinds of noise, from single point source produced by a single machine, an omnisource produced by the extraction fan that is omnipresent, to background noise produced by foot and vehicular traffic. 
 
 We also referenced Health Link British Columbia  for typical noise types and their average decibels levels, and we established that around 50 dB is what a quiet work environment would be, high 70s dB can be irritating to people, and above 85 dB would be considered harmful if there is long term exposure. 
 
 Based on this information, we collated our recordings and profiled spaces that can serve as our baseline for what a quiet work environment would be, and spaces with frequent noise level above 75 dB. 
+
 
 
 ***
