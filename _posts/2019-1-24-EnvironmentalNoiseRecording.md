@@ -285,9 +285,14 @@ From the recordings, we established that the profile from the Pratt Career Cente
 ```
 
 
-[^1] http://www.montana.edu/rmaher/eele417_fl14/Determination_of_STC.pdf
-[^2] https://www.nidcd.nih.gov/health/noise-induced-hearing-loss
-[^3] Chang, Ta-Yuan et al. “Road traffic noise frequency and prevalent hypertension in Taichung, Taiwan: a cross-sectional study” Environmental health : a global access science source vol. 13,1 37. 16 May. 2014, doi:10.1186/1476-069X-13-37
-[^4] Persson Waye, Kerstin. (2011). Noise and Health - Effects of Low Frequency Noise and Vibrations: Environmental and Occupational Perspectives. 10.1016/B978-0-444-52272-6.00245-2.
-[^5] https://www.healthlinkbc.ca/health-topics/tf4173
-[^6] http://www.diracdelta.co.uk/science/source/a/w/aweighting/source.html
+[^1]: http://www.montana.edu/rmaher/eele417_fl14/Determination_of_STC.pdf
+
+[^2]: https://www.nidcd.nih.gov/health/noise-induced-hearing-loss
+
+[^3]: Chang, Ta-Yuan et al. “Road traffic noise frequency and prevalent hypertension in Taichung, Taiwan: a cross-sectional study” Environmental health : a global access science source vol. 13,1 37. 16 May. 2014, doi:10.1186/1476-069X-13-37
+
+[^4]: Persson Waye, Kerstin. (2011). Noise and Health - Effects of Low Frequency Noise and Vibrations: Environmental and Occupational Perspectives. 10.1016/B978-0-444-52272-6.00245-2.
+
+[^5]: https://www.healthlinkbc.ca/health-topics/tf4173
+
+[^6]: http://www.diracdelta.co.uk/science/source/a/w/aweighting/source.html
