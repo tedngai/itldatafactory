@@ -3,6 +3,9 @@ layout: post
 title: Environmental Noise Recording Oct 2018
 description: First set of noise recording conducted on Oct 18 2018
 ---
+
+<br>
+
 #### Premise
 In accounting for acoustical properties of building materials, a single number Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) value is used. Both values describe how well a material absorbs sound energy, while NRC focuses on reflected sound, STC focuses on transmitted sound, usually in the range of normal speech frequencies between 120 Hz to 4000 Hz [^1].
 
@@ -73,9 +76,10 @@ Based on this information, we collated our recordings and profiled spaces that c
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
 
 <br>
-<br>
+
 ##### A-Weighting Equation [^6]
 
+<br>
 
 ![alt text](../../assets/images/a-weighting-eq.gif)
 
@@ -134,9 +138,6 @@ From the recordings, we established that the profile from the Pratt Career Cente
 
 <br>
 <br>
-
-***
-
 
 And as a comparison, this noise profile is from an even quieter office but with a 3D printer running. As you can see, the sound pressure level is lower mostly below 1 kHz and the increased noise level is mostly in the region of higher frequencies above 2 kHz. But the SPL reading shows a lower level at 50.5 dBA.
 
