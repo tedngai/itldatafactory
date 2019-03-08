@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Environmental Noise Recording Oct 2018
-description: First set of noise recording conducted on Jan 30
+description: First set of noise recording conducted on Oct 18 2018
 ---
 #### Premise
 In accounting for acoustical properties of building materials, a single number Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) value is used. Both values describe how well a material absorbs sound energy, while NRC focuses on reflected sound, STC focuses on transmitted sound, usually in the range of normal speech frequencies between 120 Hz to 4000 Hz [^1].
@@ -16,22 +16,25 @@ What we propose is to go beyond the single value metric. Sound is a spectrum and
 
 This proposal involve 2 stages of acoustical testing. The first is to record and graph environmental noise in and around our work environments. We want to record and profile noises of common equipments and how it differs from “background” noise.  For the second phase, we will build an acoustical testing station to test and profile common and unusual acoustical materials. 
 
+<br>
+<br>
+
 #### Environmental Noise Recording Methodology
 
 For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirectional microphone set at 90 degree to one another recording a wide sound field, and an Extech 407730- Digital sound level meter to record the sound pressure level (SPL) of the source, typically 1 meter away or as noted. If situation does not allow for the recording to be at 1 meter away, 2 meter distance is used and we use the Inverse Square Law, reduction of 6 decibel per meter, to adjust for the final value. 
 
+<br>
+<br>
+### *dL  =  20 log (R2 / R1)*  
+*where:*
 
+*dL = difference in sound pressure level (dB)*
 
->### *dL  =  20 log (R2 / R1)*  
->*where:*
->
->*dL = difference in sound pressure level (dB)*
->
->*R1 = distance from source to location 1 (ft, m)*
->
->*R2 = distance from source to location 2 (ft, m)*
+*R1 = distance from source to location 1 (ft, m)*
 
-
+*R2 = distance from source to location 2 (ft, m)*
+<br>
+<br>
 
 The sound pressure level is recorded with A-weighting on the instrument, which is weighted to human sound perception. The initial recordings recorded at about 36 locations profiling various kinds of noise, from single point source produced by a single machine, an omnisource produced by the extraction fan that is omnipresent, to background noise produced by foot and vehicular traffic. 
 
@@ -39,8 +42,8 @@ We also referenced Health Link British Columbia [^5] for typical noise types and
 
 Based on this information, we collated our recordings and profiled spaces that can serve as our baseline for what a quiet work environment would be, and spaces with frequent noise level above 75 dB. 
 
-
-
+<br>
+<br>
 |LOCATION     |SOUND SOURCE     |DISTANCE FROM SOURCE     |SOUND LEVEL     |
 | --- | --- | --- | --- |
 |ITL Office		|3D Printer     |1 m     |50.5     |
@@ -56,63 +59,65 @@ Based on this information, we collated our recordings and profiled spaces that c
 |Engineering Wood Shop		|Machinery     |1 m     |79.5     |
 |Engineering Print Lab		|Printers     |1 m     |77     |
 |Engineering 1st Floor Hallway		|Video     |2 m     |77.6     |
-
-
+<br>
+<br>
 
 #### Data Processing Protocol
 
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
 
-***
-
-
+<br>
+<br>
 ##### A-Weighting Equation [^6]
 
 
 ![alt text](../../assets/images/a-weighting-eq.gif)
 
->*where:*
->
->*WA = weighting to be applied, dB*
->
->*f = frequency, Hz*
+*where:*
 
+*WA = weighting to be applied, dB*
+
+*f = frequency, Hz*
+<br>
+<br>
 ***
-
-
+<br>
+<br>
 ##### A-Weighting Graph
 This is the A-weighting graph generated from the equation above.
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/145.embed"></iframe>
-
+<br>
+<br>
 ***
-
-
+<br>
+<br>
 ##### Unweighted Recording
 This is the frequency spectrum graph straight from the audio recording.
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/147.embed"></iframe>
-
+<br>
+<br>
 ***
-
-
+<br>
+<br>
 ##### A-Weighted Recording
 This is the frequency spectrum with A-weighting applied to approximate human hearing.
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/149.embed"></iframe>
-
-
+<br>
+<br>
 ***
-
-
+<br>
+<br>
 #### Results
 
 From the recordings, we established that the profile from the Pratt Career Center can be used as our normal quiet work environment baseline. The peak decibel level in that space is 53 dBA, well below normal conversation level, which is around 60 dB. 
 
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/143.embed"></iframe>
-
-
+<br>
+<br>
 ***
 
 
@@ -127,7 +132,8 @@ Distance from Source : **1m**
 Max SPL : **50.5 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/131.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -140,7 +146,8 @@ Distance from Source : **2m**
 Max SPL : **101.1 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/129.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -153,7 +160,8 @@ Distance from Source : **Ambient**
 Max SPL : **81.8 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/125.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -166,7 +174,8 @@ Distance from Source : **1m to Vending Machine**
 Max SPL : **77.6 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/123.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -179,7 +188,8 @@ Distance from Source : **1m**
 Max SPL : **107.8 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/121.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -192,7 +202,8 @@ Distance from Source : **1m from the door of CNC shop**
 Max SPL : **79.3 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/119.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -205,7 +216,8 @@ Distance from Source : **1m**
 Max SPL : **81 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/127.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -218,7 +230,8 @@ Distance from Source : **Ambient**
 Max SPL : **75.1 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/139.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -231,7 +244,8 @@ Distance from Source : **Ambient**
 Max SPL : **79.3 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/137.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -244,7 +258,8 @@ Distance from Source : **1m**
 Max SPL : **79.5 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/135.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -257,7 +272,8 @@ Distance from Source : **1m**
 Max SPL : **77 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/133.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
@@ -270,7 +286,8 @@ Distance from Source : **2m**
 Max SPL : **77.6 dBA**
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/141.embed"></iframe>
-
+<br>
+<br>
 ***
 
 
