@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Environmental Noise Recording Round 01
+title: Environmental Noise Recording Oct 2018
 description: First set of noise recording conducted on Jan 30
 ---
 #### Premise
