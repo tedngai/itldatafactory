@@ -58,6 +58,8 @@ Based on this information, we collated our recordings and profiled spaces that c
 |Engineering 1st Floor Hallway		|Video     |2 m     |77.6     |
 
 
+
+
 ***
 
 
@@ -71,8 +73,12 @@ In addition to recording the sound pressure levels,  the sound is also recorded 
 ![alt text](../../assets/images/a-weighting-eq.gif)
 
 where:
+
 WA = weighting to be applied, dB
+
 f = frequency, Hz
-$$$$sin(x)
+
+
+
 
 
