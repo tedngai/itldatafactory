@@ -44,14 +44,14 @@ Based on this information, we collated our recordings and profiled spaces that c
 |Higgins Hall Main Staircase 1st Floor     |Vending Machine     |1 m     |77.6     |
 |Higgins Hall CNC Shop     |CNC     |2 m     |107.8     |
 |Higgins Hall South 3rd Floor Hallway		|CNC + Foot Traffic     |1 m  |79.3  |   
-|ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office		|3D Printer     |1 m     |50.5     |
-|ITL Office		|3D Printer     |1 m     |50.5     |
+|Higgins Hall 3D Print Shop		|Spray Booth Fan     |1 m     |81     |
+|Main Campus Security Booth		|Ambient Traffic     |ambient     |75.1     |
+|Pratt Career Center		|Foot Traffic     |ambient    |53     |
+|Cafeteria		|Foot Traffic     |ambient     |79.3     |
+|Engineering Wood Shop		|Machinery     |1 m     |79.5     |
+|Engineering Print Lab		|Printers     |1 m     |77     |
+|Engineering 1st Floor Hallway		|Video     |2 m     |77.6     |
+
 
 ### Data Processing Protocol
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
