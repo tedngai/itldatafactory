@@ -4,11 +4,11 @@ title: Environmental Noise Recording Round 01
 description: First set of noise recording conducted on Jan 30
 ---
 #### Premise
-In accounting for acoustical properties of building materials, a single number Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) value is used. Both values describe how well a material absorbs sound energy, while NRC focuses on reflected sound, STC focuses on transmitted sound, usually in the range of normal speech frequencies between 120 Hz to 4000 Hz.
+In accounting for acoustical properties of building materials, a single number Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) value is used. Both values describe how well a material absorbs sound energy, while NRC focuses on reflected sound, STC focuses on transmitted sound, usually in the range of normal speech frequencies between 120 Hz to 4000 Hz[^1].
 
 While NRC and STC are industry standards in understanding acoustical properties of building materials, in an age where offices have mostly adopted an open office layout where sound transmits freely, and with diversifying office culture where activities like desktop prototyping with CNC machines, doggy day care, and aerobic exercises can happen in the same space, these metrics are no longer adequate in assessing how our aural environments.  
 
-According to the National Institute on Deafness and Other Communication Disorders, long term exposure to sounds at or above 85 decibels can cause hearing loss.  This metric to correlate sound pressure levels to hearing loss is, however, much too simplistic because it does not describe how different frequencies of sound affects our health differently. In a paper published in Environmental Health in 2014, researchers found high exposure to low frequency traffic noise at around 125 Hz may induce hypertension.  Other researchers have also found significant associations between low frequency exposure to chronic diseases such as headaches, unusual tiredness, lack of concentration, irritation, and pressure on the eardrum.  
+According to the National Institute on Deafness and Other Communication Disorders, long term exposure to sounds at or above 85 decibels can cause hearing loss[^2].  This metric to correlate sound pressure levels to hearing loss is, however, much too simplistic because it does not describe how different frequencies of sound affects our health differently. In a paper published in Environmental Health in 2014, researchers found high exposure to low frequency traffic noise at around 125 Hz may induce hypertension[^3].  Other researchers have also found significant associations between low frequency exposure to chronic diseases such as headaches, unusual tiredness, lack of concentration, irritation, and pressure on the eardrum[^4].  
 
 In short, our evolving work environment and the increasing number of environmental health research are showing a deficiency in this single value system, and our proposal is to develop a more comprehensive view of noise and its interaction with space and materials. 
 
@@ -22,17 +22,17 @@ For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirection
 
 
 
-### dL  =  20 log (R2 / R1)  
-where:
+### *dL  =  20 log (R2 / R1)*  
+*where:
 dL = difference in sound pressure level (dB)
 R1 = distance from source to location 1 (ft, m)
-R2 = distance from source to location 2 (ft, m)
+R2 = distance from source to location 2 (ft, m)*
 
 
 
 The sound pressure level is recorded with A-weighting on the instrument, which is weighted to human sound perception. The initial recordings recorded at about 36 locations profiling various kinds of noise, from single point source produced by a single machine, an omnisource produced by the extraction fan that is omnipresent, to background noise produced by foot and vehicular traffic. 
 
-We also referenced Health Link British Columbia  for typical noise types and their average decibels levels, and we established that around 50 dB is what a quiet work environment would be, high 70s dB can be irritating to people, and above 85 dB would be considered harmful if there is long term exposure. 
+We also referenced Health Link British Columbia[^5] for typical noise types and their average decibels levels, and we established that around 50 dB is what a quiet work environment would be, high 70s dB can be irritating to people, and above 85 dB would be considered harmful if there is long term exposure. 
 
 Based on this information, we collated our recordings and profiled spaces that can serve as our baseline for what a quiet work environment would be, and spaces with frequent noise level above 75 dB. 
 
@@ -63,7 +63,7 @@ In addition to recording the sound pressure levels,  the sound is also recorded 
 ***
 
 
-##### A-Weighting Equation
+##### A-Weighting Equation[^6]
 
 
 ![alt text](../../assets/images/a-weighting-eq.gif)
@@ -272,3 +272,19 @@ Max SPL : **77.6 dBA**
 #### Conclusion
 
 From the recordings, we established that the profile from the Pratt Career Center can be used as our normal quiet 
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+
+[^1] http://www.montana.edu/rmaher/eele417_fl14/Determination_of_STC.pdf
+[^2] https://www.nidcd.nih.gov/health/noise-induced-hearing-loss
+[^3] Chang, Ta-Yuan et al. “Road traffic noise frequency and prevalent hypertension in Taichung, Taiwan: a cross-sectional study” Environmental health : a global access science source vol. 13,1 37. 16 May. 2014, doi:10.1186/1476-069X-13-37
+[^4] Persson Waye, Kerstin. (2011). Noise and Health - Effects of Low Frequency Noise and Vibrations: Environmental and Occupational Perspectives. 10.1016/B978-0-444-52272-6.00245-2.
+[^5] https://www.healthlinkbc.ca/health-topics/tf4173
+[^6] http://www.diracdelta.co.uk/science/source/a/w/aweighting/source.html
