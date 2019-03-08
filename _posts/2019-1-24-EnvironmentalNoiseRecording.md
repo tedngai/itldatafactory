@@ -21,7 +21,7 @@ This proposal involve 2 stages of acoustical testing. The first is to record and
 For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirectional microphone set at 90 degree to one another recording a wide sound field, and an Extech 407730- Digital sound level meter to record the sound pressure level (SPL) of the source, typically 1 meter away or as noted. If situation does not allow for the recording to be at 1 meter away, 2 meter distance is used and we use the Inverse Square Law, reduction of 6 decibel per meter, to adjust for the final value. 
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
-## dL  =  20 log (R2 / R1)  
+>## dL  =  20 log (R2 / R1)  
  
 > where
 > dL = difference in sound pressure level (dB)
