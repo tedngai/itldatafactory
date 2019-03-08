@@ -78,7 +78,7 @@ f = frequency, Hz
 
 
 ##### A-Weighting Graph
-
+This is the A-weighting graph generated from the equation above.
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/145.embed"></iframe>
 
@@ -86,6 +86,7 @@ f = frequency, Hz
 
 
 ##### Unweighted Recording
+This is the frequency spectrum graph straight from the audio recording.
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/147.embed"></iframe>
 
@@ -93,6 +94,7 @@ f = frequency, Hz
 
 
 ##### A-Weighted Recording
+This is the frequency spectrum with A-weighting applied to approximate human hearing.
 
 <iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/149.embed"></iframe>
 
