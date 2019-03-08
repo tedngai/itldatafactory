@@ -24,8 +24,11 @@ dL  =  20 log (R2 / R1)
  
 where
 dL = difference in sound pressure level (dB)
+
 R1 = distance from source to location 1 (ft, m)
+
 R2 = distance from source to location 2 (ft, m)
+
 
 The sound pressure level is recorded with A-weighting on the instrument, which is weighted to human sound perception. The initial recordings recorded at about 36 locations profiling various kinds of noise, from single point source produced by a single machine, an omnisource produced by the extraction fan that is omnipresent, to background noise produced by foot and vehicular traffic. 
 
