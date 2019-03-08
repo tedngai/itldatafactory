@@ -1,15 +1,51 @@
 ---
 layout: post
-title: Environmental Noise Recording
+title: Environmental Noise Recording Round 01
 description: First set of noise recording conducted on Jan 30
 ---
-<h3>Project Description</h3>
-The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.
+### Premise
+In accounting for acoustical properties of building materials, a single number Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) value is used. Both values describe how well a material absorbs sound energy, while NRC focuses on reflected sound, STC focuses on transmitted sound, usually in the range of normal speech frequencies between 120 Hz to 4000 Hz.
 
-<h3>Methodology</h3>
-<p>For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
+While NRC and STC are industry standards in understanding acoustical properties of building materials, in an age where offices have mostly adopted an open office layout where sound transmits freely, and with diversifying office culture where activities like desktop prototyping with CNC machines, doggy day care, and aerobic exercises can happen in the same space, these metrics are no longer adequate in assessing how our aural environments.  
 
-The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.</p>
+According to the National Institute on Deafness and Other Communication Disorders, long term exposure to sounds at or above 85 decibels can cause hearing loss.  This metric to correlate sound pressure levels to hearing loss is, however, much too simplistic because it does not describe how different frequencies of sound affects our health differently. In a paper published in Environmental Health in 2014, researchers found high exposure to low frequency traffic noise at around 125 Hz may induce hypertension.  Other researchers have also found significant associations between low frequency exposure to chronic diseases such as headaches, unusual tiredness, lack of concentration, irritation, and pressure on the eardrum.  
+
+In short, our evolving work environment and the increasing number of environmental health research are showing a deficiency in this single value system, and our proposal is to develop a more comprehensive view of noise and its interaction with space and materials. 
+
+What we propose is to go beyond the single value metric. Sound is a spectrum and human hearing is sensitive from 20Hz to 20kHz, therefore, we propose an acoustical standard that would allow us to gain a deeper insight into the nature of sound. 
+
+This proposal involve 2 stages of acoustical testing. The first is to record and graph environmental noise in and around our work environments. We want to record and profile noises of common equipments and how it differs from “background” noise.  For the second phase, we will build an acoustical testing station to test and profile common and unusual acoustical materials. 
+
+### Environmental Noise Recording Methodology
+
+For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirectional microphone set at 90 degree to one another recording a wide sound field, and an Extech 407730- Digital sound level meter to record the sound pressure level (SPL) of the source, typically 1 meter away or as noted. If situation does not allow for the recording to be at 1 meter away, 2 meter distance is used and we use the Inverse Square Law, reduction of 6 decibel per meter, to adjust for the final value. 
+
+dL  =  20 log (R2 / R1)  
+ 
+where
+dL = difference in sound pressure level (dB)
+R1 = distance from source to location 1 (ft, m)
+R2 = distance from source to location 2 (ft, m)
+
+The sound pressure level is recorded with A-weighting on the instrument, which is weighted to human sound perception. The initial recordings recorded at about 36 locations profiling various kinds of noise, from single point source produced by a single machine, an omnisource produced by the extraction fan that is omnipresent, to background noise produced by foot and vehicular traffic. 
+
+We also referenced Health Link British Columbia  for typical noise types and their average decibels levels, and we established that around 50 dB is what a quiet work environment would be, high 70s dB can be irritating to people, and above 85 dB would be considered harmful if there is long term exposure. 
+
+Based on this information, we collated our recordings and profiled spaces that can serve as our baseline for what a quiet work environment would be, and spaces with frequent noise level above 75 dB. 
+
+|LOCATION     |SOUND SOURCE     |DISTANCE FROM SOURCE     |SOUND LEVEL     |
+| --- | --- | --- | --- |
+|     |     |     |     |
+|     |     |     |     |
+|     |     |     |     |
+|     |     |     |     |
+|     |     |     |     |
+
+### Data Processing Protocol
+In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
+
+A-Weighting Equation
+
 
 <h3 id="content">Results for Materials Set01</h3>
 
