@@ -65,6 +65,11 @@ In addition to recording the sound pressure levels,  the sound is also recorded 
 A-Weighting Equation
 
 ![alt text](../assets/images/a-weighting-eq.gif)
+where:
+WA = weighting to be applied, dB
+f = frequency, Hz
+$$$$sin(x)
+
 
 <h3 id="content">Results for Materials Set01</h3>
 
