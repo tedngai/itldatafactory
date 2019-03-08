@@ -38,9 +38,6 @@ Based on this information, we collated our recordings and profiled spaces that c
 
 
 
-***
-
-
 |LOCATION     |SOUND SOURCE     |DISTANCE FROM SOURCE     |SOUND LEVEL     |
 | --- | --- | --- | --- |
 |ITL Office		|3D Printer     |1 m     |50.5     |
@@ -59,13 +56,11 @@ Based on this information, we collated our recordings and profiled spaces that c
 
 
 
-
-***
-
-
 #### Data Processing Protocol
 
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
+
+***
 
 
 ##### A-Weighting Equation
@@ -79,20 +74,30 @@ WA = weighting to be applied, dB
 
 f = frequency, Hz
 
+***
+
+
 ##### A-Weighting Graph
 
 
 ![alt text](../../assets/images/A-Weighting.png)
+
+***
 
 
 ##### Unweighted Recording
 
 ![alt text](../../assets/images/Flat-Weighting.png)
 
+***
+
 
 ##### A-Weighted Recording
 
 ![alt text](../../assets/images/A-Weighted.png)
+
+
+***
 
 
 #### Results
@@ -105,6 +110,8 @@ From the recordings, we established that the profile from the Pratt Career Cente
 
 And as a comparison, this noise profile is from an even quieter office but with a 3D printer running. As you can see, the sound pressure level is lower mostly below 1 kHz and the increased noise level is mostly in the region of higher frequencies above 2 kHz. But the SPL reading shows a lower level at 50.5 dBA.
 
+***
+
 
 Location : **ITL Office** 
 
@@ -115,6 +122,8 @@ Distance from Source : **1m**
 Max SPL : **50.5 dBA**
 
 <iframe width="1400" height="500" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/131.embed"></iframe>
+
+***
 
 
 Location : **ITL Office** 
