@@ -54,6 +54,8 @@ Based on this information, we collated our recordings and profiled spaces that c
 |Engineering Print Lab		|Printers     |1 m     |77     |
 |Engineering 1st Floor Hallway		|Video     |2 m     |77.6     |
 
+***
+
 
 ### Data Processing Protocol
 In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.
