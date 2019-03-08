@@ -157,6 +157,8 @@ And as a comparison, this noise profile is from an even quieter office but with 
 
 <br>
 
+![alt text](../../assets/images/ITL-01.jpg)
+
 Location : **ITL Office** 
 
 Noise Source : **3D printer** 
@@ -172,6 +174,9 @@ Max SPL : **50.5 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **ITL Office** 
 
@@ -188,6 +193,9 @@ Max SPL : **101.1 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-02.jpg)
 
 Location : **School of Architecture Higgins Hall Lobby** 
 
@@ -204,6 +212,9 @@ Max SPL : **81.8 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-03.jpg)
 
 Location : **School of Architecture Higgins Hall 1 Floor Seating Area by the Vending Machine** 
 
@@ -220,6 +231,9 @@ Max SPL : **77.6 dBA**
 
 ***
 
+<br>
+
+![alt text](../../assets/images/ITL-04.jpg)
 
 Location : **School of Architecture Higgins Hall - CNC Shop** 
 
