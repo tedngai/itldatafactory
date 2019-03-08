@@ -38,8 +38,8 @@ Based on this information, we collated our recordings and profiled spaces that c
 
 |LOCATION     |SOUND SOURCE     |DISTANCE FROM SOURCE     |SOUND LEVEL     |
 | --- | --- | --- | --- |
-|ITL Office|3D Printer     |1 m     |50.5     |
-|     |     |     |     |
+|ITL Office		|3D Printer     |1 m     |50.5     |
+|ITL Office     |Chop Saw     |2 m     |     |
 |     |     |     |     |
 |     |     |     |     |
 |     |     |     |     |
