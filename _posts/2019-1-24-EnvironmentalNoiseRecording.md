@@ -130,8 +130,118 @@ Max SPL : **50.5 dBA**
 
 Location : **ITL Office** 
 
-Noise Source : **3D printer** 
+Noise Source : **Point source chop Saw** 
+
+Distance from Source : **2m**
+
+Max SPL : **101.1 dBA**
+
+***
+
+
+Location : **School of Architecture Higgins Hall Lobby** 
+
+Noise Source : **Ambient noise, conversation and foot traffic** 
+
+Distance from Source : **Ambient**
+
+Max SPL : **81.8 dBA**
+
+***
+
+
+Location : **School of Architecture Higgins Hall 1 Floor Seating Area by the Vending Machine** 
+
+Noise Source : **Ambient noise, conversation and foot traffic** 
+
+Distance from Source : **1m to Vending Machine**
+
+Max SPL : **77.6 dBA**
+
+***
+
+
+Location : **School of Architecture Higgins Hall - CNC Shop** 
+
+Noise Source : **CNC Machine** 
 
 Distance from Source : **1m**
 
-Max SPL : **50.5 dBA**
+Max SPL : **107.8 dBA**
+
+***
+
+
+Location : **School of Architecture Higgins Hall - Hallway outside CNC Shop** 
+
+Noise Source : **CNC Machine + ambient foot traffic** 
+
+Distance from Source : **1m from the door of CNC shop**
+
+Max SPL : **79.3 dBA**
+
+***
+
+
+Location : **School of Architecture Higgins Hall - 3D Print Shop** 
+
+Noise Source : **Spray Booth Fan** 
+
+Distance from Source : **1m**
+
+Max SPL : **81 dBA**
+
+***
+
+
+Location : **Main Campus Security Booth** 
+
+Noise Source : **Ambient Traffic** 
+
+Distance from Source : **Ambient**
+
+Max SPL : **75.1 dBA**
+
+***
+
+
+Location : **Cafeteria** 
+
+Noise Source : **Ambient Traffic** 
+
+Distance from Source : **Ambient**
+
+Max SPL : **79.3 dBA**
+
+***
+
+
+Location : **Engineering Building Wood Shop** 
+
+Noise Source : **Machinery** 
+
+Distance from Source : **1m**
+
+Max SPL : **79.5 dBA**
+
+***
+
+
+Location : **Engineering Building Print Lab** 
+
+Noise Source : **Printers** 
+
+Distance from Source : **1m**
+
+Max SPL : **77 dBA**
+
+***
+
+
+Location : **Engineering Building 1st Floor Hallway** 
+
+Noise Source : **Video** 
+
+Distance from Source : **2m**
+
+Max SPL : **77.6 dBA**
