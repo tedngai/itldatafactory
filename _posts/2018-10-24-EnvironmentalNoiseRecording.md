@@ -113,7 +113,7 @@ In addition to recording the sound pressure levels,  the sound is also recorded 
 ##### A-Weighting Graph
 This is the A-weighting graph generated from the equation above.
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/145.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/145.embed"></iframe>
 <br>
 <br>
 
@@ -124,7 +124,7 @@ This is the A-weighting graph generated from the equation above.
 ##### Unweighted Recording
 This is the frequency spectrum graph straight from the audio recording.
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/147.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/147.embed"></iframe>
 <br>
 <br>
 
@@ -135,7 +135,7 @@ This is the frequency spectrum graph straight from the audio recording.
 ##### A-Weighted Recording
 This is the frequency spectrum with A-weighting applied to approximate human hearing.
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/149.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/149.embed"></iframe>
 <br>
 <br>
 
@@ -148,7 +148,7 @@ This is the frequency spectrum with A-weighting applied to approximate human hea
 From the recordings, we established that the profile from the Pratt Career Center can be used as our normal quiet work environment baseline. The peak decibel level in that space is 53 dBA, well below normal conversation level, which is around 60 dB. 
 
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/143.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/143.embed"></iframe>
 
 <br>
 <br>
@@ -167,7 +167,7 @@ Distance from Source : **1m**
 
 Max SPL : **50.5 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/131.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/131.embed"></iframe>
 
 <br>
 <br>
@@ -186,7 +186,7 @@ Distance from Source : **2m**
 
 Max SPL : **101.1 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/129.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/129.embed"></iframe>
 
 <br>
 <br>
@@ -205,7 +205,7 @@ Distance from Source : **Ambient**
 
 Max SPL : **81.8 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/125.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/125.embed"></iframe>
 
 <br>
 <br>
@@ -224,7 +224,7 @@ Distance from Source : **1m to Vending Machine**
 
 Max SPL : **77.6 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/123.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/123.embed"></iframe>
 
 <br>
 <br>
@@ -243,7 +243,7 @@ Distance from Source : **1m**
 
 Max SPL : **107.8 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/121.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/121.embed"></iframe>
 
 <br>
 <br>
@@ -262,7 +262,7 @@ Distance from Source : **1m from the door of CNC shop**
 
 Max SPL : **79.3 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/119.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/119.embed"></iframe>
 
 <br>
 <br>
@@ -281,7 +281,7 @@ Distance from Source : **1m**
 
 Max SPL : **81 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/127.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/127.embed"></iframe>
 
 <br>
 <br>
@@ -300,7 +300,7 @@ Distance from Source : **Ambient**
 
 Max SPL : **75.1 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/139.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/139.embed"></iframe>
 
 <br>
 <br>
@@ -319,7 +319,7 @@ Distance from Source : **Ambient**
 
 Max SPL : **79.3 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/137.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/137.embed"></iframe>
 
 <br>
 <br>
@@ -338,7 +338,7 @@ Distance from Source : **1m**
 
 Max SPL : **79.5 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/135.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/135.embed"></iframe>
 
 <br>
 <br>
@@ -357,7 +357,7 @@ Distance from Source : **1m**
 
 Max SPL : **77 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/133.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/133.embed"></iframe>
 
 <br>
 <br>
@@ -376,7 +376,7 @@ Distance from Source : **2m**
 
 Max SPL : **77.6 dBA**
 
-<iframe width="1200" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/141.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~prattitl/141.embed"></iframe>
 
 <br>
 <br>
