@@ -8,7 +8,7 @@ The is the results of our first sound test. Our test is to investigate the acous
 
 <br>
 
-<div class="sketchfab-embed-wrapper"><iframe width="1200" height="600" src="https://sketchfab.com/models/fbb20be8033f4fe081300e5fc70fcc0b/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="sketchfab-embed-wrapper"><iframe width="100%" height="600" src="https://sketchfab.com/models/fbb20be8033f4fe081300e5fc70fcc0b/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
     <a href="https://sketchfab.com/3d-models/luna-fbb20be8033f4fe081300e5fc70fcc0b?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Luna</a>
