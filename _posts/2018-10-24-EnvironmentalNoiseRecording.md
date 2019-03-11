@@ -290,7 +290,7 @@ Max SPL : **81 dBA**
 
 <br>
 
-![alt text](../../assets/images/ITL-02.jpg)
+![alt text](../../assets/images/ITL-05.jpg)
 
 Location : **Main Campus Security Booth** 
 
@@ -309,7 +309,7 @@ Max SPL : **75.1 dBA**
 
 <br>
 
-![alt text](../../assets/images/ITL-02.jpg)
+![alt text](../../assets/images/ITL-07.jpg)
 
 Location : **Cafeteria** 
 
@@ -366,7 +366,7 @@ Max SPL : **77 dBA**
 
 <br>
 
-![alt text](../../assets/images/ITL-02.jpg)
+![alt text](../../assets/images/ITL-06.jpg)
 
 Location : **Engineering Building 1st Floor Hallway** 
 
