@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>itlacoustics</title>
+    <description>This is a repository of our ongoing projects.</description>
+    <link>http://localhost:4000/itldatafactory/</link>
+    <atom:link href="http://localhost:4000/itldatafactory/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 16 Mar 2019 08:18:00 -0400</pubDate>
+    <lastBuildDate>Sat, 16 Mar 2019 08:18:00 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Sound Test Set Jan 2019</title>
+        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
+&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
+
+&lt;h3&gt;Methodology&lt;/h3&gt;
+&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
+
+The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Tue, 12 Feb 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/itldatafactory/2019/SoundTest01/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2019/SoundTest01/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Engineering Building Room Capacities</title>
+        <description>&lt;p&gt;This is a series of heatmap visualizations of how classrooms are used throughout the semester. The color coding of the heat map represents the number of occupants projected with the darkest color representing an empty room. Hovering your mouse over the bright color portion of the heatmap will show the name of courses that are occupying the room during that time.&lt;/p&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;How to read this graph&lt;/h2&gt;
+&lt;p&gt;The x-axis represents time of day as well as week of the semester, while Y-axis represents day of the week. The charts below has the X and Y axis labels turned off for the sake clarity since there're so much information, the graphics gets confusing easily. To get detailed information of a particular room, just hover your mouse over the graph and you will get a read out showing you the date, time, day of week, and the course title.&lt;/p&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/38.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 1&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/36.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 107&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/40.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 113&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/32.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 201&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/30.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 202&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/42.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 203&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/44.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 204&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/24.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 205&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/22.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 206&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/46.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 207&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/18.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 305&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/16.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 307&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/14.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 102&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/12.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 103&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/10.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 104&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/8.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 107&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/6.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 109&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/48.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 301&lt;/h2&gt;
+
+&lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/2.embed&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 16 Jan 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/itldatafactory/2019/RoomCapacities/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2019/RoomCapacities/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Environmental Noise Recording Oct 2018</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;premise&quot;&gt;Premise&lt;/h4&gt;
+&lt;p&gt;In accounting for acoustical properties of building materials, a single number Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) value is used by the industry as standard metric. Both value systems describe how well a material absorbs sound energy. While NRC focuses on the reflected sound, STC focuses on the transmitted sound, usually in the range of normal speech frequencies between 120 Hz to 4000 Hz &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;While NRC and STC are industry standards in understanding acoustical properties of building materials, in an age where offices have mostly adopted an open office layout where sound transmits freely, and with diversifying office culture where activities like desktop prototyping with CNC machines, doggy day care, and aerobic exercises can happen in the same space, these metrics are no longer adequate in assessing how our aural environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;According to the National Institute on Deafness and Other Communication Disorders, long term exposure to sounds at or above 85 decibels can cause hearing loss &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.  This metric to correlate sound pressure levels to hearing loss is, however, much too simplistic because it does not describe how different frequencies of sound affects our health differently. In a paper published in Environmental Health in 2014, researchers found high exposure to low frequency traffic noise at around 125 Hz may induce hypertension &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.  Other researchers have also found significant associations between low frequency exposure to chronic diseases such as headaches, unusual tiredness, lack of concentration, irritation, and pressure on the eardrum &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In short, our evolving work environment and the increasing number of environmental health research are showing a deficiency in this single value system, and our proposal is to develop a more comprehensive view of noise and its interaction with space and materials.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What we propose is to go beyond the single value metric. Sound is a spectrum and human hearing is sensitive from 20Hz to 20kHz, therefore, we propose an acoustical standard that would allow us to gain a deeper insight into the nature of sound.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This proposal involve 2 stages of acoustical testing. The first is to record and graph environmental noise in and around our work environments. We want to record and profile noises of common equipments and how it differs from “background” noise.  For the second phase, we will build an acoustical testing station to test and profile common and unusual acoustical materials.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;environmental-noise-recording-methodology&quot;&gt;Environmental Noise Recording Methodology&lt;/h4&gt;
+
+&lt;p&gt;For sound recording, we are using a Zoom H1 Digital Recorder with 2 unidirectional microphone set at 90 degree to one another recording a wide sound field, and an Extech 407730- Digital sound level meter to record the sound pressure level (SPL) of the source, typically 1 meter away or as noted. If situation does not allow for the recording to be at 1 meter away, 2 meter distance is used and we use the Inverse Square Law, reduction of 6 decibel per meter, to adjust for the final value.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dl----20-log-r2--r1&quot;&gt;&lt;em&gt;dL  =  20 log (R2 / R1)&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;where:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;dL = difference in sound pressure level (dB)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;R1 = distance from source to location 1 (ft, m)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;R2 = distance from source to location 2 (ft, m)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The sound pressure level is recorded with A-weighting on the instrument, which is weighted to human sound perception. The initial recordings recorded at about 36 locations profiling various kinds of noise, from single point source produced by a single machine, an omnisource produced by the extraction fan that is omnipresent, to background noise produced by foot and vehicular traffic.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also referenced Health Link British Columbia &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; for typical noise types and their average decibels levels, and we established that around 50 dB is what a quiet work environment would be, high 70s dB can be irritating to people, and above 85 dB would be considered harmful if there is long term exposure.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Based on this information, we collated our recordings and profiled spaces that can serve as our baseline for what a quiet work environment would be, and spaces with frequent noise level above 75 dB.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;LOCATION&lt;/th&gt;
+      &lt;th&gt;SOUND SOURCE&lt;/th&gt;
+      &lt;th&gt;DISTANCE FROM SOURCE&lt;/th&gt;
+      &lt;th&gt;SOUND LEVEL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ITL Office&lt;/td&gt;
+      &lt;td&gt;3D Printer&lt;/td&gt;
+      &lt;td&gt;1 m&lt;/td&gt;
+      &lt;td&gt;50.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ITL Office&lt;/td&gt;
+      &lt;td&gt;Chop Saw&lt;/td&gt;
+      &lt;td&gt;2 m&lt;/td&gt;
+      &lt;td&gt;101.1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Higgins Hall Lobby&lt;/td&gt;
+      &lt;td&gt;Foot Traffic&lt;/td&gt;
+      &lt;td&gt;ambient&lt;/td&gt;
+      &lt;td&gt;81.8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Higgins Hall Main Staircase 1st Floor&lt;/td&gt;
+      &lt;td&gt;Vending Machine&lt;/td&gt;
+      &lt;td&gt;1 m&lt;/td&gt;
+      &lt;td&gt;77.6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Higgins Hall CNC Shop&lt;/td&gt;
+      &lt;td&gt;CNC&lt;/td&gt;
+      &lt;td&gt;2 m&lt;/td&gt;
+      &lt;td&gt;107.8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Higgins Hall South 3rd Floor Hallway&lt;/td&gt;
+      &lt;td&gt;CNC + Foot Traffic&lt;/td&gt;
+      &lt;td&gt;1 m&lt;/td&gt;
+      &lt;td&gt;79.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Higgins Hall 3D Print Shop&lt;/td&gt;
+      &lt;td&gt;Spray Booth Fan&lt;/td&gt;
+      &lt;td&gt;1 m&lt;/td&gt;
+      &lt;td&gt;81&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Main Campus Security Booth&lt;/td&gt;
+      &lt;td&gt;Ambient Traffic&lt;/td&gt;
+      &lt;td&gt;ambient&lt;/td&gt;
+      &lt;td&gt;75.1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pratt Career Center&lt;/td&gt;
+      &lt;td&gt;Foot Traffic&lt;/td&gt;
+      &lt;td&gt;ambient&lt;/td&gt;
+      &lt;td&gt;53&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cafeteria&lt;/td&gt;
+      &lt;td&gt;Foot Traffic&lt;/td&gt;
+      &lt;td&gt;ambient&lt;/td&gt;
+      &lt;td&gt;79.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Engineering Wood Shop&lt;/td&gt;
+      &lt;td&gt;Machinery&lt;/td&gt;
+      &lt;td&gt;1 m&lt;/td&gt;
+      &lt;td&gt;79.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Engineering Print Lab&lt;/td&gt;
+      &lt;td&gt;Printers&lt;/td&gt;
+      &lt;td&gt;1 m&lt;/td&gt;
+      &lt;td&gt;77&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Engineering 1st Floor Hallway&lt;/td&gt;
+      &lt;td&gt;Video&lt;/td&gt;
+      &lt;td&gt;2 m&lt;/td&gt;
+      &lt;td&gt;77.6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;data-processing-protocol&quot;&gt;Data Processing Protocol&lt;/h4&gt;
+
+&lt;p&gt;In addition to recording the sound pressure levels,  the sound is also recorded as a sound file in .WAV 24bit / 96kHz format. The .WAV file is then brought into Audacity where we use its Fast Fourier Transform (FFT) algorithm to plot the spectrum. However, since Audacity’s spectral-graph is not weighted to human hearing, the data is exported out as a text file and then brought into Python to apply A-weighting with the following equation.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;a-weighting-equation-&quot;&gt;A-Weighting Equation &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/a-weighting-eq.gif&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;where:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;WA = weighting to be applied, dB&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;f = frequency, Hz&lt;/em&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;a-weighting-graph&quot;&gt;A-Weighting Graph&lt;/h5&gt;
+&lt;p&gt;This is the A-weighting graph generated from the equation above.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/145.embed&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;unweighted-recording&quot;&gt;Unweighted Recording&lt;/h5&gt;
+&lt;p&gt;This is the frequency spectrum graph straight from the audio recording.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/147.embed&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;a-weighted-recording&quot;&gt;A-Weighted Recording&lt;/h5&gt;
+&lt;p&gt;This is the frequency spectrum with A-weighting applied to approximate human hearing.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/149.embed&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;results&quot;&gt;Results&lt;/h4&gt;
+
+&lt;p&gt;From the recordings, we established that the profile from the Pratt Career Center can be used as our normal quiet work environment baseline. The peak decibel level in that space is 53 dBA, well below normal conversation level, which is around 60 dB.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/143.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;And as a comparison, this noise profile is from an even quieter office but with a 3D printer running. As you can see, the sound pressure level is lower mostly below 1 kHz and the increased noise level is mostly in the region of higher frequencies above 2 kHz. But the SPL reading shows a lower level at 50.5 dBA.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-01.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;ITL Office&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;3D printer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;1m&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;50.5 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/131.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-02.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;ITL Office&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Point source chop Saw&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;2m&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;101.1 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/129.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-02.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;School of Architecture Higgins Hall Lobby&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Ambient noise, conversation and foot traffic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;Ambient&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;81.8 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/125.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-03.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;School of Architecture Higgins Hall 1 Floor Seating Area by the Vending Machine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Ambient noise, conversation and foot traffic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;1m to Vending Machine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;77.6 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/123.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-04.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;School of Architecture Higgins Hall - CNC Shop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;CNC Machine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;1m&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;107.8 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/121.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-02.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;School of Architecture Higgins Hall - Hallway outside CNC Shop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;CNC Machine + ambient foot traffic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;1m from the door of CNC shop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;79.3 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/119.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-02.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;School of Architecture Higgins Hall - 3D Print Shop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Spray Booth Fan&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;1m&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;81 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/127.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-05.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;Main Campus Security Booth&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Ambient Traffic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;Ambient&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;75.1 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/139.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-07.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;Cafeteria&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Ambient Traffic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;Ambient&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;79.3 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/137.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-02.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;Engineering Building Wood Shop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Machinery&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;1m&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;79.5 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/135.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-02.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;Engineering Building Print Lab&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Printers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;1m&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;77 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/133.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/ITL-06.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location : &lt;strong&gt;Engineering Building 1st Floor Hallway&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Noise Source : &lt;strong&gt;Video&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance from Source : &lt;strong&gt;2m&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Max SPL : &lt;strong&gt;77.6 dBA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/141.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;From the recordings, we established that the profile from the Pratt Career Center can be used as our normal quiet&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;http://www.montana.edu/rmaher/eele417_fl14/Determination_of_STC.pdf &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;https://www.nidcd.nih.gov/health/noise-induced-hearing-loss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Chang, Ta-Yuan et al. “Road traffic noise frequency and prevalent hypertension in Taichung, Taiwan: a cross-sectional study” Environmental health : a global access science source vol. 13,1 37. 16 May. 2014, doi:10.1186/1476-069X-13-37 &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Persson Waye, Kerstin. (2011). Noise and Health - Effects of Low Frequency Noise and Vibrations: Environmental and Occupational Perspectives. 10.1016/B978-0-444-52272-6.00245-2. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;https://www.healthlinkbc.ca/health-topics/tf4173 &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;http://www.diracdelta.co.uk/science/source/a/w/aweighting/source.html &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 24 Oct 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/itldatafactory/2018/EnvironmentalNoiseRecording/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2018/EnvironmentalNoiseRecording/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Culinary Institute of America Spatial Analytics</title>
+        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
+&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Methodology&lt;/h3&gt;
+
+&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
+
+The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
+
+</description>
+        <pubDate>Mon, 24 Sep 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/itldatafactory/2018/CIA_SpatialAnalytics/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2018/CIA_SpatialAnalytics/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pratt Campus Traffic Counter</title>
+        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
+&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
+
+&lt;h3&gt;Methodology&lt;/h3&gt;
+&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
+
+The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
+
+&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
+
+&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 20 May 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/itldatafactory/2018/Pratt_campus_traffic_counter/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2018/Pratt_campus_traffic_counter/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Soft Robotics</title>
+        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
+&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;sketchfab-embed-wrapper&quot;&gt;&lt;iframe width=&quot;1200&quot; height=&quot;600&quot; src=&quot;https://sketchfab.com/models/fbb20be8033f4fe081300e5fc70fcc0b/embed&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;&gt;
+    &lt;a href=&quot;https://sketchfab.com/3d-models/luna-fbb20be8033f4fe081300e5fc70fcc0b?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Luna&lt;/a&gt;
+    by &lt;a href=&quot;https://sketchfab.com/attikachu?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;katie&lt;/a&gt;
+    on &lt;a href=&quot;https://sketchfab.com?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Sketchfab&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Methodology&lt;/h3&gt;
+
+&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
+
+The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
+
+&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
+
+&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Tue, 10 Apr 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/itldatafactory/2018/SoftRobotics/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2018/SoftRobotics/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>3D Printing with Clay - Sensual Ceramics</title>
+        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
+&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;sketchfab-embed-wrapper&quot;&gt;&lt;iframe width=&quot;1200&quot; height=&quot;600&quot; src=&quot;https://sketchfab.com/models/fbb20be8033f4fe081300e5fc70fcc0b/embed&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;&gt;
+    &lt;a href=&quot;https://sketchfab.com/3d-models/luna-fbb20be8033f4fe081300e5fc70fcc0b?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Luna&lt;/a&gt;
+    by &lt;a href=&quot;https://sketchfab.com/attikachu?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;katie&lt;/a&gt;
+    on &lt;a href=&quot;https://sketchfab.com?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Sketchfab&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Methodology&lt;/h3&gt;
+
+&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
+
+The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
+
+&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
+
+&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 14 Jun 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/itldatafactory/2017/3DClayPrinter/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2017/3DClayPrinter/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
