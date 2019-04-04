@@ -1,41 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>itlacoustics</title>
+    <title>itldatafactory</title>
     <description>This is a repository of our ongoing projects.</description>
     <link>http://localhost:4000/itldatafactory/</link>
     <atom:link href="http://localhost:4000/itldatafactory/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2019 08:58:11 -0400</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 08:58:11 -0400</lastBuildDate>
+    <pubDate>Thu, 04 Apr 2019 15:13:13 -0400</pubDate>
+    <lastBuildDate>Thu, 04 Apr 2019 15:13:13 -0400</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Sound Test Set Jan 2019</title>
-        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
-&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
+        <title>Engineering Building Room Capacities 19/FA</title>
+        <description>&lt;p&gt;This is a series of heatmap visualizations of how classrooms are used throughout the semester. The color coding of the heat map represents the number of occupants projected with the darkest color representing an empty room. Hovering your mouse over the bright color portion of the heatmap will show the name of courses that are occupying the room during that time.&lt;/p&gt;
 
-&lt;h3&gt;Methodology&lt;/h3&gt;
-&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
+&lt;h2 id=&quot;content&quot;&gt;How to read this graph&lt;/h2&gt;
+&lt;p&gt;The x-axis represents time of day as well as week of the semester, while Y-axis represents day of the week. The charts below has the X and Y axis labels turned off for the sake clarity since there're so much information, the graphics gets confusing easily. To get detailed information of a particular room, just hover your mouse over the graph and you will get a read out showing you the date, time, day of week, and the course title.&lt;/p&gt;
 
-The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/38.embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
+&lt;h2 id=&quot;content&quot;&gt;ENGR 3&lt;/h2&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/176.embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
+&lt;h2 id=&quot;content&quot;&gt;ENGR 8&lt;/h2&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/178.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 9&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/180.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 11&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/182.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 107&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/184.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 109&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/186.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 111&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/188.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 113&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/190.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 115&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/192.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 117&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/194.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 201&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/196.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 202&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/198.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 203&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/200.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 204&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/202.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 205&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/204.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 206&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/206.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 207&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/208.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 301&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/210.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 302&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/212.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 305&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/214.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 307&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/216.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 309&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/218.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;ENGR 311&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/220.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 1&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/222.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 3&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/224.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 12&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/226.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 102&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/228.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 103&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/230.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 104&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/232.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 107&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/234.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 109&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/236.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 204&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/238.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 301&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/240.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;MACH 305&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/242.embed&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Tue, 12 Feb 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/itldatafactory/2019/SoundTest01/</link>
-        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2019/SoundTest01/</guid>
+        <pubDate>Wed, 03 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/itldatafactory/2019/RoomCapacities19FA/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2019/RoomCapacities19FA/</guid>
         
         
       </item>
     
       <item>
-        <title>Engineering Building Room Capacities</title>
+        <title>Engineering Building Room Capacities 19/SP</title>
         <description>&lt;p&gt;This is a series of heatmap visualizations of how classrooms are used throughout the semester. The color coding of the heat map represents the number of occupants projected with the darkest color representing an empty room. Hovering your mouse over the bright color portion of the heatmap will show the name of courses that are occupying the room during that time.&lt;/p&gt;
 
 &lt;h2 id=&quot;content&quot;&gt;How to read this graph&lt;/h2&gt;
@@ -116,8 +243,8 @@ The SPL is recorded with RoomEQ, and the data is processed in Python, and finall
 &lt;iframe width=&quot;1000&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://plot.ly/~prattitl/2.embed&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 16 Jan 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/itldatafactory/2019/RoomCapacities/</link>
-        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2019/RoomCapacities/</guid>
+        <link>http://localhost:4000/itldatafactory/2019/RoomCapacities19SP/</link>
+        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2019/RoomCapacities19SP/</guid>
         
         
       </item>
@@ -634,109 +761,6 @@ The SPL is recorded with RoomEQ, and the data is processed in Python, and finall
         <pubDate>Mon, 24 Sep 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/itldatafactory/2018/CIA_SpatialAnalytics/</link>
         <guid isPermaLink="true">http://localhost:4000/itldatafactory/2018/CIA_SpatialAnalytics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pratt Campus Traffic Counter</title>
-        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
-&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
-
-&lt;h3&gt;Methodology&lt;/h3&gt;
-&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
-
-The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
-
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
-
-&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
-
-&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Sun, 20 May 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/itldatafactory/2018/Pratt_campus_traffic_counter/</link>
-        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2018/Pratt_campus_traffic_counter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Soft Robotics</title>
-        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
-&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;sketchfab-embed-wrapper&quot;&gt;&lt;iframe width=&quot;1200&quot; height=&quot;600&quot; src=&quot;https://sketchfab.com/models/fbb20be8033f4fe081300e5fc70fcc0b/embed&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
-
-&lt;p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;&gt;
-    &lt;a href=&quot;https://sketchfab.com/3d-models/luna-fbb20be8033f4fe081300e5fc70fcc0b?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Luna&lt;/a&gt;
-    by &lt;a href=&quot;https://sketchfab.com/attikachu?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;katie&lt;/a&gt;
-    on &lt;a href=&quot;https://sketchfab.com?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Sketchfab&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Methodology&lt;/h3&gt;
-
-&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
-
-The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
-
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
-
-&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
-
-&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Tue, 10 Apr 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/itldatafactory/2018/SoftRobotics/</link>
-        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2018/SoftRobotics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>3D Printing with Clay - Sensual Ceramics</title>
-        <description>&lt;h3&gt;Project Description&lt;/h3&gt;
-&lt;p&gt;The is the results of our first sound test. Our test is to investigate the acoustical performance of commercially available and common sense materials. Industry standards typically rates materials with a NRC (Noise Reduction Coefficient) value. However, since noise is not just a magnitude but also a spectrum, we wanted to develop materials that would perform best at specific frequencies.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;sketchfab-embed-wrapper&quot;&gt;&lt;iframe width=&quot;1200&quot; height=&quot;600&quot; src=&quot;https://sketchfab.com/models/fbb20be8033f4fe081300e5fc70fcc0b/embed&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
-
-&lt;p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;&gt;
-    &lt;a href=&quot;https://sketchfab.com/3d-models/luna-fbb20be8033f4fe081300e5fc70fcc0b?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Luna&lt;/a&gt;
-    by &lt;a href=&quot;https://sketchfab.com/attikachu?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;katie&lt;/a&gt;
-    on &lt;a href=&quot;https://sketchfab.com?utm_medium=embed&amp;amp;utm_source=website&amp;amp;utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;&gt;Sketchfab&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Methodology&lt;/h3&gt;
-
-&lt;p&gt;For the test we are using a calibrated microphone to record the sound pressure level (SPL) of a frequency sweep from 20Hz to 20kHz. Multiple control recordings are made without any interferrence between the speaker and the microphone. An extruded aluminum jig is used to lock the position of the speaker, the microphone, and sound proofing material.
-
-The SPL is recorded with RoomEQ, and the data is processed in Python, and finally, visualization is done via Plotly.&lt;/p&gt;
-
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set01&lt;/h3&gt;
-
-&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/152.embed&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;content&quot;&gt;Results for Materials Set02&lt;/h3&gt;
-
-&lt;iframe width=&quot;1200&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~prattitl/154.embed&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Wed, 14 Jun 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/itldatafactory/2017/3DClayPrinter/</link>
-        <guid isPermaLink="true">http://localhost:4000/itldatafactory/2017/3DClayPrinter/</guid>
         
         
       </item>
